@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "header.html" . }}
+
+<body>
+	<header>{{- .Page.Title -}}</header>
+	<main>
+		<aside>
+			{{ with .Page.Parent }} <!--Si la page admet un parent, on remonte-->
+			<a href="{{ .Permalink }}">&#x2934; ({{- .Title -}})</a>
+			{{ end }}
+			{{ if .Pages }}
+			<ul>
+				{{ range .Pages }}<li><a href="{{ .Permalink }}"> {{- .Title -}} </a></li> {{ end }}
+			</ul>
+			{{ end }}
+		</aside>
+		<div id="central">
+			<div id="prologue">
+			{{ if (eq .Page.Type "livre")  }}
+				{{ partial "livre-content.html" . }}
+			{{ end }}
+			{{ if (eq .Page.Type "memoire")  }}
+				{{ partial "memoire-content.html" . }}
+			{{ end }}
+			</div>
+			<div id="content">
+				{{- .Content -}}
+			</div>
+		</div>
+	</main>
+	{{ partial "footer.html" . }}
+</body>
+</html>

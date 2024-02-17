@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+     viewBox="0 0 2000 1000"
+     version="1.1"
+     id="svg8"
+     sodipodi:docname="Carte du monde.svg"
+     inkscape:version="1.1.1 (50ffc5b540, 2022-01-11)"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:svg="http://www.w3.org/2000/svg">
+    <style
+         id="style886">
+	text.infobulle {
+		transform: translate(1em,3em);
+		display: none;
+	}
+	.survolable:hover + text.infobulle {
+		display: inline;
+		stroke: none;
+		fill: black;
+	}
+</style>
+    <defs
+         id="defs12" />
+    <sodipodi:namedview
+         id="namedview10"
+         pagecolor="#505050"
+         bordercolor="#eeeeee"
+         borderopacity="1"
+         inkscape:pageshadow="0"
+         inkscape:pageopacity="0"
+         inkscape:pagecheckerboard="0"
+         inkscape:document-units="in"
+         showgrid="false"
+         inkscape:zoom="3.9137058"
+         inkscape:cx="1020.3884"
+         inkscape:cy="520.60633"
+         inkscape:window-width="1848"
+         inkscape:window-height="1016"
+         inkscape:window-x="1512"
+         inkscape:window-y="405"
+         inkscape:window-maximized="1"
+         inkscape:current-layer="svg8" />
+    <!-- Début du dessin -->
+    <rect
+         width="100%"
+         height="100%"
+         fill="#3022ec"
+         id="arriere-plan" />
+    <!-- Dessin de la côte -->
+    <path
+         id="Côte"
+         fill="#6cdb83"
+         stroke="none"
+         stroke-width="1"
+         d="m 2000,497.51457 c -195,0 -370,18 -452,26 -145,6 -348,-111 -534,-166 -231.99998,-69 -429.99998,-77 -341.99998,-34 157,76 -385,200 -671.99999649,174 v 126 c 684.99999649,-23 938.99999649,-144 797.99999649,-51 -141,93 -299,165 -425,139 -126,-25 -335.999996,-6 -372.99999649,-6 v 84 c 20.00000049,-10 318.99999649,14 584.99999649,-6 265,-19 201,30 378,-15 176.99998,-45 -261,-147 192.99998,-55 455,91 440,-23 585,31 146,54 239,55 259,45 v -84 c -311,-2 -268,-37 -422,-51 -155,-13 -156,62 -378,-33 -221.99998,-94 -278.99998,-166 -36,-99 243,68 451,50 529,75 93,28 154,26 307,26 z"
+         sodipodi:nodetypes="ccccccsccccscccccccccc" />
+    <g
+         inkscape:groupmode="layer"
+         id="layer5"
+         inkscape:label="Biomes &amp; climats"
+         style="stroke:none;">
+        <style
+             id="style928">
+	 .desert {
+		fill: #ebdb83;
+	 }
+	 .foret-tropicale {
+		fill: #23a35d;
+	 }
+	 .savane {
+		fill: #aaa35d;
+	 }
+	 </style>
+        <path
+             class="savane survolable"
+             d="m 916.3098,447.422 c -4.63693,5.31798 -0.7913,45.35015 -23.26775,56.05865 -20.77716,9.8989 -50.98369,40.1451 -65.47021,53.20129 -13.59915,12.25644 -53.14566,30.47201 -52.14554,38.91151 0.32799,2.76779 48.8727,-3.95237 70.24122,-0.0144 24.84325,4.57836 52.54112,41.26445 59.65768,43.06156 32.734,8.26615 73.17472,-93.38846 83.87377,-124.8474 5.17436,-15.21443 28.96313,-39.43017 20.32083,-50.29636 -8.7414,-10.99079 -31.12338,-14.95018 -51.83602,-17.53241 -9.55,-1.11973 -29.75811,-26.24849 -38.9542,-25.39158 -4.21456,0.39272 0.40344,24.20219 -2.41978,26.84914 z"
+             id="path6492"
+             sodipodi:nodetypes="cssssssscsc">
+            <title
+                 id="title940">Savane:Tröm (Plaines de)</title>
+        </path>
+        <text
+             class="infobulle"
+             id="text943">Plaines de Tröm (savane)</text>
+        <path
+             class="desert survolable"
+             d="m 745.61187,399.95841 c -28.30385,16.7403 -41.04954,34.94182 -56.31295,60.75745 -18.09396,30.60306 -17.43671,71.45247 8.06952,75.34722 33.4,5.1001 175.18175,-1.51448 192.05331,-19.17377 16.87157,-17.65929 41.25436,-79.24764 34.67581,-95.78875 -5.96152,-14.98963 -68.60986,-51.48801 -108.4373,-48.27811 -29.20068,2.35344 -51.79141,16.53148 -70.04839,27.13596 z"
+             id="path1129"
+             sodipodi:nodetypes="csssssc">
+            <title
+                 id="title945">Désert:Ghern</title>
+        </path>
+        <text
+             class="infobulle"
+             id="text948">Ghern (désert)</text>
+        <path
+             class="foret-tropicale survolable"
+             d="m 1035.3817,374.44484 c -21.2067,10.37551 9.3014,24.076 8.6575,38.40994 -0.6439,14.33395 -11.0318,19.6357 -32.8042,26.81602 -21.77237,7.18031 -31.87229,7.57465 -30.33175,30.56874 3.15923,47.1546 0.20202,55.43204 7.15767,55.89492 33.67188,2.24078 33.02818,3.58443 17.73528,-12.24115 -10.4278,-10.79094 4.4722,-18.36394 12.7526,-19.92884 14.2289,-2.6891 62.4873,1.87336 102.5568,13.54196 40.0695,11.6686 168.2249,38.52667 187.6318,44.55837 18.519,5.75573 149.1816,17.8971 193.5588,22.82105 5.6231,0.62392 111.0833,7.41853 144.4328,11.74295 74.9453,9.71812 99.0436,25.07139 141.7195,30.15138 41.5445,4.94531 194.7977,5.00046 211.5515,6.73439 v -126 c -42.8989,3.07643 -187.3355,5.06176 -233.0606,9.0456 -35.2295,3.0694 -194.2708,17.94678 -211.4605,18.70384 -10.1903,0.4488 -25.9499,1.15679 -46.7107,0.17578 -53.7081,-2.53786 -157.853,-35.87805 -169.237,-41.61333 -11.823,-5.95646 -98.2127,-33.35533 -115.2433,-41.80262 -9.9196,-4.92015 -167.2773,-78.16104 -188.9062,-67.579 z"
+             id="path2464"
+             sodipodi:nodetypes="ssssssssssssccssssss">
+            <title
+                 id="title950">Forêt tropicale:Erhmel (Forêt d')</title>
+        </path>
+        <text
+             class="infobulle"
+             id="text953">Forêt d'Erhmel (forêt tropicale)</text>
+        <path
+             d="M 1016.8543,525.11586 C 1031.483,537.2101 1059.0692,558.33414 1088.0724,573.12616 1113.3213,586.00345 1171.5841,609.97846 1178.5617,622.94891 1205.8497,673.67386 1104.3949,697.41332 1095.2919,696.5785 1030.233,690.61214 956.38383,664.03863 939.64837,676.04293 932.57032,681.11999 954.12066,687.25932 964.22146,700.75111 971.74122,710.79537 931.45294,706.30548 908.21058,681.00975 864.4932,633.43013 741.4489,636.81483 770.51689,602.44787 774.89005,597.27749 804.30868,585.40451 841.53222,593.12632 878.78717,600.85465 919.63671,631.74185 925.53641,630.55687 934.2308,628.81056 973.20323,563.26396 977.3469,541.04134 978.53995,534.64296 983.45877,515.2405 994.91241,515.14693 1001.6048,515.09225 997.4545,509.07713 1016.8543,525.11586 Z"
+             id="path3743"
+             class="foret-tropicale survolable"
+             sodipodi:nodetypes="sssssssssssss">
+            <title
+                 id="title132">Forêt tropicale:Ermhande (Forêt d')</title>
+        </path>
+        <text
+             class="infobulle"
+             id="text135">
+	   Forêt d'Ermhande (forêt tropicale)
+	   </text>
+    </g>
+    <!-- Premier niveau de relief -->
+    <path
+         id="Montagnes #1"
+         d="m 850,335 c -81,-20 -175,-34 -179,-26 -4,8 76.79299,31.16344 55,37 -16.31029,4.3682 -18.80008,4.14017 -15.56529,11.08319 3.68468,7.90863 98.5812,24.96221 154.76319,45.81997 40.65771,15.09431 63.80195,42.97984 67.03956,43.01675 7.50858,0.0856 8.73559,-8.75805 12.68066,2.61988 1.62742,4.69363 56.95508,3.27974 63.75188,2.13021 43.33,-7.34 61.516,-26.56167 24.1963,-68.42367 -13.7685,-15.44432 -31.4651,27.41163 -44.75564,19.2036 C 934.28948,368.21075 907.32038,349.54108 850,335.33 Z m 64.4783,371.17899 C 945.94879,701.73428 900.67,668.67 858.67,651.33 816.67,634 770,602.67 744,618 c -26,15.33 19.33456,35.99463 32.67,47.33 13.33457,11.33463 44.65826,22.67429 90.66,41.34 45.99826,18.66429 69.31171,33.90458 100.67,24.66 31.972,-9.42551 -27.33104,3.34203 -54.67,-10.66 -27.33104,-13.99797 -20.39918,-17.15825 -25.7355,-30.73749 -3.67562,-9.35331 15.99116,17.78489 26.8838,16.24648 z"
+         style="fill:#c8ae5f;fill-opacity:1;stroke:none"
+         sodipodi:nodetypes="csssssscssccscsssssss" />
+    <!-- Deuxième niveau de relief -->
+    <path
+         id="Montagnes #2"
+         d="m 829.33,647.33 c -38.71637,-20.09177 -64.66,-28 -70,-10.03 -5.33,18.03 41.34,28.03 71.34,46.7 30,18.67 52.66,6 54,2 1.33,-4 -24.61869,3.05538 -21.34,-5 6.22671,-15.29834 68,28.33 26,-9 -14.66,-13.33 -23.31816,-5.63405 -60,-24.67 z M 738.79422,350.95911 c 2,6 77.73127,31.1094 137.15283,47.67525 23.10835,7.129 50.66594,40.50628 58.92535,34.89256 10.34334,-7.03012 10.51872,6.33698 12.98674,9.81914 3.72731,5.25888 52.91066,-3.28028 60.14086,-5.34606 14,-2.67 46.67,-4 24.67,-25 -9.1097,-8.41818 -33.56242,3.50764 -56.6553,-6.59363 C 943.33803,392.11296 941.74367,367.91062 866.14025,352.77807 798.14025,337.44807 724,312.67 721.33,318 c -2.66,5.33 55.34,20 55.34,30 0,10 -39.87578,-3.04089 -37.87578,2.95911 z"
+         style="fill:#d4c387;fill-opacity:1;stroke:none"
+         sodipodi:nodetypes="scscscsscssccsccss" />
+    <!-- Troisième niveau de relief -->
+    <path
+         id="Montagnes #3"
+         stroke-width="1"
+         d="m 850.75,676.5 c -2.75,9.75 23.75,9.5 19.5,13 -4.25,3.5 -38.75,-8.75 -54.75,-21.25 -16,-12.5 -28.88558,-21.31863 -27,-28 2.40506,-8.52207 28,12.25 49.75,21.5 C 860,671 883.5,663 878,673 c -5.5,10 -24.5,-6.25 -27.25,3.5 z m 34.88999,-282.98569 c 23.45707,8.89547 45.28214,37.12517 50.11411,33.92183 9.8702,-6.5434 8.69946,-0.10014 13.15777,11.34957 2.47325,6.35172 66.28203,-5.92089 68.58813,-15.78571 2.0818,-8.90537 -27.02789,0.19423 -44.42617,-6.33127 C 952.86371,409.08861 942.2328,389.022 928.93803,381.57702 905.00262,368.17335 781.73362,333.41381 778.23362,340.66381 774.73362,347.91381 810,350.25 798.25,356 c -11.75,5.75 -38.29541,-3.73524 -31.54541,2.51476 6.75,6.25 90.35878,24.16263 118.9354,34.99955 z"
+         style="fill:#e2d7af;fill-opacity:1;stroke:none"
+         sodipodi:nodetypes="sssssssssssssssss" />
+    <g
+         inkscape:groupmode="layer"
+         id="layer1"
+         inkscape:label="Fleuves &amp; rivières"
+         fill="none"
+         stroke="#9891f6"
+         stroke-linecap="miter">
+        <style
+             id="style902">
+	.cours-d-eau {
+		stroke-width: 2;
+		stroke-linecap: round;
+	}
+	.cours-d-eau:hover {
+		stroke-width: 4;
+	}
+	</style>
+        <!-- Premier fleuve (Umel)-->
+        <path
+             class="cours-d-eau survolable"
+             id="Umel"
+             title="Umel"
+             d="m 930.90765,409.8605 c 1.53908,7.69539 9.2538,8.86445 11.55814,13.78959 2.18732,4.67503 -0.97882,13.07136 -1.46579,21.34991 0,16 2,39 9,46 7,8 24,18 8,20 -15,1 -57,7 -67,16 -10,8 -41,13 -58,13"
+             sodipodi:nodetypes="csccccc">
+            <title
+                 id="tite-umel">Fleuve:Umel</title>
+        </path>
+        <text
+             class="infobulle"
+             id="infobulle-umel">Umel (fleuve)</text>
+        <!-- Second fleuve -->
+        <path
+             class="cours-d-eau survolable"
+             id="Fleuve #2"
+             d="m 852.40726,365.54346 c -21,-8 -18.82016,-12.8474 -46.75457,-11.21698 -18.19389,1.0619 -48.7669,-10.46867 -66.49187,-10.42978 -23.2688,0.0511 -31.2595,1.32746 -40.894,4.16114"
+             sodipodi:nodetypes="cssc">
+            <title
+                 id="title909">Fleuve:???</title>
+        </path>
+        <!-- Troisième fleuve -->
+        <path
+             class="cours-d-eau survolable"
+             d="m 945.48265,410.91914 c 24.08326,26.03281 57.71835,8.62488 83.77135,19.40117 11.8502,4.90158 25.2588,10.10966 33.9261,33.29476 9.9536,26.62588 -82.92216,0.0536 -77.34044,24.42038 5.58172,24.36673 20.55894,19.59243 20.55894,19.59243"
+             id="path1146"
+             sodipodi:nodetypes="csssc">
+            <title
+                 id="title27">Fleuve:Burm</title>
+        </path>
+        <text
+             class="infobulle"
+             id="text30">Burm (fleuve)</text>
+        <!-- Quatrième fleuve -->
+        <path
+             class="cours-d-eau survolable"
+             d="m 941.55122,678.239 c -16.1859,-3.71204 -23.41903,-4.59794 -21.31617,2.83586 2.10285,7.4338 25.82885,31.44724 15.65204,36.24098 -5.54627,2.61255 -24.69955,-1.95592 -33.6438,-10.51425 -7.46748,-7.14528 -10.75853,-11.56577 -15.51188,-21.24766 -2.76911,-5.64027 -18.64195,-3.17007 -31.68702,-6.55223 -18.00921,-4.6692 -35.66096,-13.88137 -38.56756,-20.80762"
+             id="path914"
+             sodipodi:nodetypes="csssssc">
+            <title
+                 id="title912">Fleuve:???</title>
+        </path>
+    </g>
+    <g
+         inkscape:groupmode="layer"
+         id="layer3"
+         inkscape:label="Villes &amp; villages"
+         stroke="black">
+        <style
+             id="style917">
+	.village {
+		fill: #ffffff;
+		fill-opacity: 0;
+		stroke-width: 0.25;
+	}
+	.ville {
+		fill: white;
+		stroke-width: 0.25;
+	}
+	:is(.ville, .village):hover {
+		stroke-width: 0.5;
+	}
+	</style>
+        <circle
+             cx="940"
+             cy="445"
+             r="1"
+             id="village-menael"
+             class="village survolable">
+            <title
+                 id="title919">Village:Ménaël</title>
+        </circle>
+        <text
+             class="infobulle"
+             id="text922">Ménaël (village)</text>
+        <circle
+             cx="940"
+             cy="448"
+             r="1"
+             id="village-plunel"
+             class="village survolable">
+            <title
+                 id="title37">Village:Plunel</title>
+        </circle>
+        <text
+             class="infobulle"
+             id="text40">Plunel (village)</text>
+        <circle
+             cx="943"
+             cy="477"
+             r="1"
+             id="ville-trondheim"
+             class="ville survolable">
+            <title
+                 id="title-trondheim">Ville:Trondheim</title>
+        </circle>
+        <text
+             class="infobulle"
+             id="text44">Trondheim (vile)</text>
+    </g>
+    <g
+         inkscape:groupmode="layer"
+         id="layer4"
+         inkscape:label="Courants &amp; vents">
+        <style
+             id="style24">
+	 .fleche-vent, .fleche-courant {display: none;}
+	 </style>
+        <!-- Vents dominants -->
+        <path
+             class="fleche-vent"
+             style="fill:none;stroke:#3852ae;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1823.0888,341.12572 c -0.8659,43.62485 -119.7029,142.75504 -140.2542,130.70474 1.3233,-22.61208 24.2731,-42.21567 24.7905,-61.12598 -2.4694,29.49896 -38.887,38.31556 -31.7035,61.59432 1.3019,1.946 60.0585,5.31214 68.8797,5.31214"
+             id="path26" />
+        <path
+             class="fleche-vent"
+             style="fill:none;stroke:#3852ae;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1562.4297,344.05093 c -9.1005,98.95862 -91.7123,185.66818 -197.6544,187.26809 14.9911,-16.33023 11.4353,-57.3666 25.6451,-67.96972 2.2635,21.33708 -24.5153,31.14271 -29.657,68.40049 84.6082,-0.37716 71.5977,-3.55902 92.8894,-3.8975"
+             id="path28" />
+        <path
+             class="fleche-vent"
+             style="fill:none;stroke:#3852ae;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1219.6332,343.59217 c -3.8527,72.46813 -48.7137,145.31555 -119.1684,147.96433 -1.4371,-9.45639 1.7707,-39.1628 1.7707,-44.84939 2.4201,12.98621 -1.0222,33.46956 -1.7707,44.84939 22.7937,1.67303 56.0627,0.28089 72.8292,-1.5218"
+             id="path30" />
+        <path
+             class="fleche-vent"
+             style="fill:none;stroke:#3852ae;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 594.16967,344.3047 c -3.33336,68.65652 -78.12655,149.39229 -131.95731,151.43567 -6.3246,-8.49821 17.65869,-42.50933 2.18256,-38.46072 -8.76508,2.25646 -15.83654,32.51135 -12.32904,34.88603 15.33118,-0.57433 53.55269,1.63542 57.41439,1.63004"
+             id="path32" />
+        <path
+             class="fleche-vent"
+             style="fill:none;stroke:#3852ae;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 283.07027,330.41542 c -0.39729,45.39538 -95.28484,141.7643 -182.07148,142.05518 -8.991178,-3.20557 2.67617,-52.35624 9.36802,-45.76285 8.40455,17.56029 -12.893706,35.65088 -12.395282,50.11963 25.720722,0.34108 52.713252,12.44471 75.887922,13.26965"
+             id="path1185" />
+        <path
+             class="fleche-vent"
+             style="fill:none;stroke:#3852ae;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 729.6731,721.59146 c -2.69202,-74.42422 -53.13562,-139.53037 -132.45705,-134.96995 -0.87789,10.68859 -14.80588,57.95871 -12.39516,54.56255 -7.11351,-25.77667 0.8048,-46.60097 8.10754,-58.90359 30.11111,-14.50764 44.32113,-13.83709 53.98656,-4.07888"
+             id="path1187"
+             sodipodi:nodetypes="ccccc" />
+        <path
+             class="fleche-vent"
+             style="fill:none;stroke:#3852ae;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 360.97073,737.23613 C 369.52691,696.48886 282.7482,582.09091 201.25028,581.6993 c -4.56796,4.73025 -12.39522,30.81854 -12.39522,38.44844 -0.47178,-11.21343 4.28649,-28.9986 12.2491,-34.25548 8.26348,-5.14272 69.96503,0.24 75.68515,5.95991"
+             id="path1191"
+             sodipodi:nodetypes="ccccc" />
+        <path
+             class="fleche-vent"
+             style="fill:none;stroke:#3852ae;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1265.6625,760.24131 c -10.054,-69.09881 -151.7132,-163.89701 -226.4411,-172.52188 -7.5985,5.25599 -19.0737,29.23855 -10.6005,38.79191 11.7027,25.82829 6.7107,-35.1234 12.0498,-38.45224 38.0478,-12.09426 82.6227,-3.25372 97.6504,10.76213"
+             id="path1193"
+             sodipodi:nodetypes="ccccc" />
+        <path
+             class="fleche-vent"
+             style="fill:none;stroke:#3852ae;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1491.1137,754.74152 c -13.5486,-13.50773 -130.9827,-154.99338 -195.5605,-153.84989 -5.5182,12.54108 -8.6921,29.6305 -8.8218,42.02177 6.2118,-11.12883 10.5443,-40.37675 24.1421,-49.79372 25.3139,-11.86906 63.0925,14.16603 88.47,14.16603"
+             id="path1195"
+             sodipodi:nodetypes="ccccc" />
+        <path
+             class="fleche-vent"
+             style="fill:none;stroke:#3852ae;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1803.5157,754.12091 c 3.9061,-58.6458 -155.0828,-173.76067 -196.7205,-157.47877 -16.3405,9.48396 -17.7217,59.37631 -17.6864,58.63631 2.4621,-29.01353 1.3665,-49.18023 17.6864,-58.63631 19.5449,-10.79397 70.2698,-20.08113 95.8307,-20.0132"
+             id="path1197"
+             sodipodi:nodetypes="ccccc" />
+        <!-- Courants marins -->
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 484.32534,437.19476 c -121.23749,44.91729 -271.9071,-4.59727 -374.76612,24.79056 -3.88991,1.98401 6.85831,21.6831 6.85831,23.66732 2.3064,-7.10772 -11.24982,-23.12393 -7.03657,-25.64921 36.08147,-2.20569 27.5171,-53.07747 27.36921,-31.90257"
+             id="path1456"
+             sodipodi:nodetypes="ccccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 48.848063,384.46601 c 29.357833,-3.999 59.165297,1.61374 88.546737,3.87381 106.43441,8.18713 213.73383,5.3122 320.50564,5.3122 h 91.98489 c 5.26119,0 34.13097,-1.82528 37.05164,0 5.45645,3.41002 -23.89447,18.87305 -27.23685,18.87305 -2.13218,0 4.64577,-0.23894 6.15346,-1.7466 9.34273,-7.19698 13.30585,-7.41384 19.36032,-16.43887 0,-0.58281 -0.26064,-1.22716 0,-1.74845 1.87301,-3.74609 5.26765,-8.24467 5.26765,-12.30532 0,-12.30055 -11.62426,1.83454 -17.84985,1.83454"
+             id="path1458"
+             sodipodi:nodetypes="csssssccssc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 1107.6635,374.86278 c 235.9825,2.94581 702.1724,6.16376 783.8151,8.61408 -6.016,4.72153 -23.9519,31.06064 -30.4922,31.31675 22.4399,-5.74703 16.4073,-63.9709 -6.815,-63.96255"
+             id="path1462"
+             sodipodi:nodetypes="cccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 1891.8789,484.55535 c -149.1897,-1.12023 -348.4652,27.80165 -460.9886,-2.64365 -100.8781,-8.58091 -172.132,-70.3756 -254.9805,-87.97388 -0.034,0.0477 -4.7903,26.72322 -5.9772,24.57709 -1.0401,-4.79946 -0.8768,-40.09913 0,-41.66151 23.2365,-0.91703 49.1625,0.29413 69.7006,0.73877"
+             id="path1464"
+             sodipodi:nodetypes="cccccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="M 504.94082,604.33605 C 344.92053,642.76433 60.698765,628.65071 39.840063,649.8616 c 0.03324,6.06371 -3.306413,12.04301 -3.342484,16.96872 0,-8.31145 0,-16.6229 0,-24.93435 0,-7.99183 25.27475,-4.23867 31.805492,-4.23867"
+             id="path1466"
+             sodipodi:nodetypes="ccccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 43.270538,685.28246 c 129.309902,14.32895 250.737882,6.51627 384.936152,10.88218 133.28116,-5.85423 156.6142,-54.98058 249.90894,-102.37385 0.17894,0.0586 0,12.95951 0,18.81235 -1.00979,-5.58608 2.37349,-20.4955 0,-23.4487 -7.31725,-0.0398 -13.87886,-4.61558 -20.23482,-3.35054"
+             id="path1468"
+             sodipodi:nodetypes="cccccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 1181.401,593.12902 c 97.2149,11.39275 154.6722,41.95106 234.0331,50.78439 60.0769,6.68692 142.1085,-10.5606 209.6907,7.65817 67.9428,18.31594 182.0845,30.65855 243.0096,30.78899 2.397,0 14.8934,-0.17625 23.3859,0 4.2831,0.15453 -7.6634,16.01608 -12.679,20.61899 9.1805,-13.01009 16.9025,-25.65303 4.7994,-31.78817"
+             id="path1712"
+             sodipodi:nodetypes="csscccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 1887.2719,641.48261 c -70.3594,-0.7743 -153.1169,-2.88753 -193.9696,-9.41619 -86.4727,-28.03771 -181.0582,-29.27258 -266.6009,-36.31793 -22.4876,0.78768 -138.5458,-36.11724 -174.525,-38.42125 -9.3311,-0.59755 -2.6091,5.47226 0.7338,9.88408 -2.9711,-2.76263 -5.0379,-8.63471 -6.1692,-11.2301 5.6825,-3.75283 6.234,-4.61212 10.984,-3.90935"
+             id="path1714"
+             sodipodi:nodetypes="cccsccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 46.817061,814.08253 c 25.854348,5.1648 52.197284,4.41254 78.292739,7.31205 9.45167,1.05019 17.73064,5.94288 26.88983,7.46942 3.43831,0.57306 6.99838,-0.43235 10.4572,0 14.84407,1.85551 -3.959,1.40559 13.44491,2.98777 23.74913,2.15902 47.7824,1.49389 71.70634,1.49389 23.95674,0 47.92778,0.6678 71.70628,-1.49389 4.95915,-0.45083 10.03952,0.89078 14.9388,0 3.09859,-0.56338 5.85678,-2.47001 8.96331,-2.98777 2.94712,-0.49118 5.98587,0.24812 8.96332,0 8.46729,-0.70561 16.99773,-3.18962 25.39594,-4.48165 8.12141,-1.24945 15.99759,-1.01164 23.90211,-2.98777 6.65188,-1.66297 12.74746,-0.75244 19.42046,-1.49389 15.90022,-1.76669 31.88479,-1.54054 47.80422,-2.98777 5.41023,-0.49184 39.46273,-4.16227 43.30272,-1.49388 0.46197,0.32102 0.97843,17.41113 0,23.28176 -0.4787,2.87216 -7.42565,23.46929 -10.4571,23.90205 -0.42259,0.0603 -0.0734,-0.86011 0,-1.28062 0.49796,-2.42369 0.99593,-4.84739 1.49389,-7.27109 0,-0.99592 -0.16373,-2.0054 0,-2.98777 1.19351,-7.16108 1.49388,-13.61589 1.49388,-20.91429 0,-14.56017 2.51334,-18.87275 -10.02092,-26.94758 -5.06112,-3.26047 -10.0154,-3.32778 -12.31136,-7.60928"
+             id="path1831" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 647.71386,808.06459 c 132.98906,37.51165 260.42049,4.24668 389.56094,3.54721 -0.033,11.35282 -0.4532,28.79955 -9.4338,32.20785 7.3729,-30.90384 9.3834,-36.42084 -13.6385,-59.64095"
+             id="path1833"
+             sodipodi:nodetypes="cccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 1168.4962,741.21226 c 241.7664,86.22854 294.711,-38.05506 638.1571,67.67396 21.7401,9.47479 -13.6924,38.99322 -49.3315,39.88101 h 5.5749 c 26.6473,1.65862 46.1695,-22.46236 63.424,-36.44835 -20.4532,-19.69407 -52.208,-27.59505 -80.6014,-27.55191"
+             id="path1837"
+             sodipodi:nodetypes="cccccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 27.192639,337.70004 586.055491,-16.90383 -7.75052,25.79503 7.75052,-25.79503 -28.60061,-8.75153"
+             id="path1248"
+             sodipodi:nodetypes="ccccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 1022.2018,337.13423 824.3533,-5.39609 -8.7374,16.17582 15.4297,-15.82409 -10.5277,-10.37644"
+             id="path1250" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 1884.8057,199.96908 -1132.96529,1.48405 24.06727,24.21526 -11.44547,-36.77773 -12.14584,14.27595"
+             id="path1252" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 614.87898,310.22569 c -10.21477,-13.77616 -5.42858,-13.97137 12.58797,-22.04589 18.01655,-8.07452 148.53472,-2.13978 188.27984,4.69738 39.74511,6.83716 167.59571,40.86432 167.59571,40.86432 l -12.7124,4.75192 17.7686,-3.60164 -7.2264,-11.95378"
+             id="path1254"
+             sodipodi:nodetypes="csscccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 721.95616,201.72317 -594.6288,-0.42164 14.55556,18.43541 -18.77735,-18.4807 18.63916,-11.95484"
+             id="path1688" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 624.6364,279.79777 -42.76693,-50.34785 -0.36479,11.34505 -5.26907,-18.1999 17.87766,8.18102"
+             id="path1690" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 1033.5537,697.81891 c -25.7942,-5.55154 -63.4103,-20.42721 -67.1818,-13.30218 -3.7716,7.12503 14.70221,15.77456 32.21524,23.21755 15.12266,8.24111 51.20186,6.13896 77.58006,2.78402 v 5.12912 l 6.8566,-7.66719 -11.6881,-0.61855"
+             id="path1692"
+             sodipodi:nodetypes="csccccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="M 823.14975,880.40783 76.88757,879.89258 107.31298,863.61528 57.941463,876.36207 88.1808,891.83468"
+             id="path2088"
+             sodipodi:nodetypes="ccccc" />
+        <path
+             class="fleche-courant"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 1881.53,873.02723 -973.85872,1.63345 25.30431,-12.88963 -58.63825,9.63394 37.39639,15.41273"
+             id="path2142" />
+    </g>
+    <g
+         inkscape:groupmode="layer"
+         id="layer2"
+         inkscape:label="Méridiens &amp; parallèles"
+         fill="none"
+         stroke-width="0.5"
+         stroke="#000000">
+        <!-- Équateur -->
+        <line
+             x1="0%"
+             x2="100%"
+             y1="50%"
+             y2="50%"
+             id="line12" />
+        <!-- 30° N/S -->
+        <line
+             x1="0%"
+             x2="100%"
+             y1="33.3%"
+             y2="33.3%"
+             id="line14" />
+        <line
+             x1="0%"
+             x2="100%"
+             y1="66.6%"
+             y2="66.6%"
+             id="line16" />
+        <!-- 60° N/S -->
+        <line
+             x1="0%"
+             x2="100%"
+             y1="83.3%"
+             y2="83.3%"
+             id="line18" />
+        <line
+             x1="0%"
+             x2="100%"
+             y1="16.6%"
+             y2="16.6%"
+             id="line20" />
+    </g>
+    <g
+         inkscape:groupmode="layer"
+         id="g915"
+         inkscape:label="Légende">
+        <path
+             stroke="#000000"
+             fill="none"
+             stroke-width="1"
+             d="M 20 950 v -10 h 20 v 10 h 200 v -10 "
+             id="path913" />
+        <text
+             x="40"
+             y="975"
+             font-size="20"
+             id="text203">100 km</text>
+        <text
+             x="240"
+             y="975"
+             font-size="20"
+             id="text205">1'000 km</text>
+    </g>
+</svg>

@@ -1,0 +1,102 @@
+:root {
+	--hue: 180;
+	--couleur-principale: oklch(80% 0.01 var(--hue));
+	--couleur-gris-clair: oklch(85% 0 var(--hue));
+	--couleur-gris-tres-clair: oklch(90% 0 var(--hue));
+}
+
+body {
+	background-color: var(--couleur-principale);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	font-size: 5em
+}
+
+main {
+	margin: 2em;
+	width: 100%;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+aside {
+	background-color: var(--couleur-gris-clair);
+	border-radius: 2em;
+	padding: 1.75em;
+	margin: 1.75em;
+	max-width: 20%;
+}
+
+div#central {
+	background-color: var(--couleur-gris-clair);
+	border-radius: 2em;
+	padding: 2em;
+	margin: 2em;
+	width: 62.5%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+div#content {
+	background-color: var(--couleur-gris-tres-clair);
+	border-radius: 2em;
+	width: 75%;
+	padding: 2em;
+	align-self: center;
+}
+
+#content p {
+	text-align: justify;
+}
+footer div {
+	background-color: var(--couleur-gris-clair);
+	border-radius: 1.5em;
+	margin: 0.75em;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+hr#pre-footer-rule {
+	width: 95%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+aside ul {
+	list-style-type: "\2937";
+}
+
+#prologue, #prologue div {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#prologue ul {
+	display: flex;
+	flex-direction: row;
+}
+
+#prologue li {
+	margin: 0em 0.5em 0em 0.5em;
+	padding: 0.25em 0.75em 0.25em 0.75em;
+	border-radius: 1em;
+	background-color: var(--couleur-gris-tres-clair);
+}

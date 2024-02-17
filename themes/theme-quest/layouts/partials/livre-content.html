@@ -1,0 +1,30 @@
+{{ if .Page.Params.liens.nePasConfondre }}
+<div id="ne-pas-confondre">
+	<span id=>Ne pas confondre avec :</span>
+	{{ $site := .Site }}
+	<ul>
+	{{ range .Page.Params.liens.nePasConfondre }}
+		{{ with ( $site.GetPage . ) }}
+			<li>&#x21cc; <a href="{{ .Permalink }}" title="{{ .Description }}">{{ .Title }}</a></li>
+		{{ else }}
+			<li>{{ . }} (lien interne cassé)</li>
+		{{ end }}
+	{{ end }}
+	</ul>
+</div>
+{{ end }}
+{{ if .Page.Params.liens.voirAussi }}
+<div id="voir-aussi">
+	<span id=>Voir aussi :</span>
+	{{ $site := .Site }}
+	<ul>
+	{{ range .Page.Params.liens.voirAussi }}
+		{{ with ( $site.GetPage . ) }}
+			<li>&#x21c0; <a href="{{ .Permalink }}" title="{{ .Description }}">{{ .Title }}</a></li>
+		{{ else }}
+			<li title="(lien mort)">{{ . }}</li>
+		{{ end }}
+	{{ end }}
+	</ul>
+</div>
+{{ end }}
