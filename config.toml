@@ -1,9 +1,0 @@
-baseURL = 'https://quest.timotheehuneau.fr/'
-disableKinds = ['taxonomy', 'term']
-languageCode = 'fr-fr'
-defaultContentLanguage = 'fr'
-publishDir = '/var/www/html/quest'
-theme = 'theme-quest'
-title = 'DÉ6'
-verbose = true
-cleanDestinationDir = true
