@@ -1,8 +1,14 @@
 :root {
 	--hue: 180;
-	--couleur-principale: oklch(80% 0.01 var(--hue));
+	--couleur-principale: oklch(80% 0.02 var(--hue));
+	--couleur-principale-assombrie: oklch(40% 0.03 var(--hue));
 	--couleur-gris-clair: oklch(85% 0 var(--hue));
 	--couleur-gris-tres-clair: oklch(90% 0 var(--hue));
+	--couleur-gris-sombre: oklch(10% 0.005 var(--hue));
+}
+
+* {
+	color: var(--couleur-gris-sombre);
 }
 
 body {
@@ -23,14 +29,14 @@ main {
 	
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: flex-start;
 }
 
 footer {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: baseline;
 }
 
@@ -42,6 +48,14 @@ aside {
 	max-width: 20%;
 }
 
+a {
+	color: var(--couleur-principale-assombrie);
+}
+
+a:hover {
+	text-decoration-style: dashed;
+}
+
 div#central {
 	background-color: var(--couleur-gris-clair);
 	border-radius: 2em;
@@ -50,7 +64,7 @@ div#central {
 	width: 62.5%;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 }
 
 div#content {
@@ -75,8 +89,30 @@ hr#pre-footer-rule {
 	width: 95%;
 }
 
-ul {
-	list-style-type: none;
+#prologue #ne-pas-confondre a::before {
+	content: "\21cc ";
+}
+
+#prologue #voir-aussi a::before {
+	content: "\21c0 ";
+}
+
+#prologue a.lien-mort::before {
+	content: "× ";
+}
+
+#prologue a::before {
+	margin: 0.125em;
+	padding: 0.125em;
+	text-decoration: unset;
+	border-radius: 0.75em;
+	background-color: var(--couleur-gris-clair);
+	display: inline-block;
+}
+
+#prologue a:hover::before {
+	background-color: var(--couleur-principale);
+	color: var(--couleur-gris-clair);
 }
 
 aside ul {
@@ -89,18 +125,24 @@ aside ul {
 	align-items: flex-start;
 }
 
-#prologue ul {
+#prologue {
+	width: 90%;
+	padding: 2em;
+}
+
+#prologue :is(#ne-pas-confondre, #voir-aussi) div {
 	display: flex;
 	flex-direction: row;
+	margin: 0px;
 }
 
-#prologue li {
-	margin: 0em 0.5em 0em 0.5em;
-	padding: 0.25em 0.75em 0.25em 0.75em;
+#prologue a {
 	border-radius: 1em;
 	background-color: var(--couleur-gris-tres-clair);
+	padding: 0.5em;
+	margin: 0.5em;
 }
 
-prologue .a-droite {
+#prologue .a-droite {
 	align-self: flex-end;
 }

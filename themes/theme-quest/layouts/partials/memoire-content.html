@@ -1,5 +1,7 @@
 {{ if .Page.Params.suite }}
 	{{ with ( .Page.GetPage .Page.Params.suite ) }}
-		<a href="{{- .Permalink -}}">{{- .Title -}}</a>
+		<div class=a-droite>
+			<a href="{{- .Permalink -}}">{{- .Title -}}</a>
+		</div>
 	{{ end }}
 {{ end }}

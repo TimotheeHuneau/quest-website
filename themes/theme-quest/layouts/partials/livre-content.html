@@ -2,29 +2,29 @@
 <div id="ne-pas-confondre">
 	<span id=>Ne pas confondre avec :</span>
 	{{ $site := .Site }}
-	<ul>
+	<div>
 	{{ range .Page.Params.liens.nePasConfondre }}
 		{{ with ( $site.GetPage . ) }}
-			<li>&#x21cc; <a href="{{ .Permalink }}" title="{{ .Description }}">{{ .Title }}</a></li>
+			<a href="{{ .Permalink }}" title="{{ .Description }}">{{ .Title }}</a>
 		{{ else }}
-			<li>{{ . }} (lien interne cassé)</li>
+			<a class="lien-mort">{{ . }}</a>
 		{{ end }}
 	{{ end }}
-	</ul>
+	</div>
 </div>
 {{ end }}
 {{ if .Page.Params.liens.voirAussi }}
 <div id="voir-aussi">
 	<span id=>Voir aussi :</span>
 	{{ $site := .Site }}
-	<ul>
+	<div>
 	{{ range .Page.Params.liens.voirAussi }}
 		{{ with ( $site.GetPage . ) }}
-			<li>&#x21c0; <a href="{{ .Permalink }}" title="{{ .Description }}">{{ .Title }}</a></li>
+			<a href="{{ .Permalink }}" title="{{ .Description }}">{{ .Title }}</a>
 		{{ else }}
-			<li title="(lien mort)">{{ . }}</li>
+			<a class="lien-mort">{{ . }}</a>
 		{{ end }}
 	{{ end }}
-	</ul>
+	</div>
 </div>
 {{ end }}
