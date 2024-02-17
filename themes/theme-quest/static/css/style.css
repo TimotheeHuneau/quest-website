@@ -56,7 +56,7 @@ div#central {
 div#content {
 	background-color: var(--couleur-gris-tres-clair);
 	border-radius: 2em;
-	width: 75%;
+	width: 90%;
 	padding: 2em;
 	align-self: center;
 }
@@ -99,4 +99,8 @@ aside ul {
 	padding: 0.25em 0.75em 0.25em 0.75em;
 	border-radius: 1em;
 	background-color: var(--couleur-gris-tres-clair);
+}
+
+prologue .a-droite {
+	align-self: flex-end;
 }
